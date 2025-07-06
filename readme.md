@@ -17,8 +17,14 @@ Setiap service harus memiliki file `.env` dengan konfigurasi yang telah ditentuk
 
 ### 1. Clone Repository
 ```bash
-git clone <url-repository-proyek>
-cd <folder-proyek>
+git clone https://github.com/mahardikakdenie/restaurant-system.git
+cd restaurant-system
+
+git submodule add https://github.com/mahardikakdenie/order-service.git order-service
+
+git submodule add  https://github.com/mahardikakdenie/kitchen-service.git kitchen-service
+
+git submodule add  https://github.com/mahardikakdenie/notification-service.git notification-service
 
 ```
 
